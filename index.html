@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media Chat UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+<div class="chat-app">
+
+  <!-- HEADER -->
+  <div class="chat-header">
+    <div class="user">
+      <img src="https://i.pravatar.cc/100" alt="profile">
+      <div>
+        <h4>Kishor</h4>
+        <span>online</span>
+      </div>
+    </div>
+    <button id="toggleMode">🌙</button>
+  </div>
+
+  <!-- CHAT BODY -->
+  <div class="chat-body" id="chatBody">
+    <div class="msg left">
+      Hi 👋
+      <span class="time">10:30 AM</span>
+    </div>
+  </div>
+
+  <!-- INPUT -->
+  <div class="chat-input">
+    <button id="emojiBtn">😊</button>
+    <input type="text" id="messageInput" placeholder="Type a message">
+    <button id="sendBtn">➤</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
